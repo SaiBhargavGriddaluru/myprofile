@@ -1,0 +1,111 @@
+* {
+    background-color: black;
+    color: white;
+    font-family:"Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    align-items: center;
+}
+
+.header ul {
+    border: none;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 40%;
+}
+
+.header a {
+    border-radius: 25px;
+    margin-right: 40px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+}
+
+.header a:hover {
+    color: red;
+}
+
+.header img{
+    margin-left: 140px;
+    display: block;
+    left: 20px;
+    height: 140px;
+}
+
+.content {
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content1 img {
+    height: 400px;
+    padding-top: 60px;
+    width: 400px;
+    position: relative;
+    left: 40%;
+    border-radius: 50%;
+    display: block;
+    
+}
+
+.Data {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    display: inline;
+    top: 16%;
+}
+
+.Data .hello {
+    font-size: 35px;
+}
+
+.Data .name {
+    font-size: 52px;
+    position: relative;
+    top: -8%;
+    font-weight: bold;
+
+}
+input {
+    color: white;
+    background-color: black;
+    position: relative;
+    font-size: 15px;
+    top: -14%;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    border: 2px solid red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-right: 15px;
+}
+
+input:hover {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+
+.Data a {
+    height: 50px;
+    width: 50px;
+    display: inline;
+    position: relative;
+    top: -10%;
+    margin: 20px;
+}
+
+.Data img {
+    height: 50px;
+    width: 50px;
+}
